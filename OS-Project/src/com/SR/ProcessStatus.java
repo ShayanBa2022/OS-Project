@@ -1,9 +1,9 @@
 package com.SR;
 
 public enum ProcessStatus {
-    New,
+    NEW,
     CPU1,
     IO,
     CPU2,
-    Finished
+    FINISHED
 }
