@@ -1,4 +1,5 @@
 package com.SR;
+import com.SR.Queue.*;
 
 public abstract class BaseScheduler {
     /*We use *protected* access modifier to make sure it's unreachable outside the package*/

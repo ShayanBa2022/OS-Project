@@ -1,12 +1,11 @@
-package com.Queue;
+package com.SR.Queue;
 
 import java.util.Arrays;
 import java.util.Iterator;
-
-public class Queue<E> implements InterfaceQueue<E>{
+public class Queue<E> implements com.Queue.InterfaceQueue<E> {
 	public static final int CAPACITY = 1000; 
 	// Array used for storage 
-	private E[] = data;
+	private E[] data;
 	// Front element index
 	private int front = 0;
 	// Number of elements

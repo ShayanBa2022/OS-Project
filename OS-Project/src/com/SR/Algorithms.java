@@ -1,6 +1,6 @@
 package com.SR;
 
-public enum ProcessNames
+public enum Algorithms
 {
     FCFS,
     SJF,

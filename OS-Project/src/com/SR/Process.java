@@ -3,9 +3,9 @@ package com.SR;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import com.SR.Queue.Queue;
+
 public class Process {
-
-
     private int processID;
     private int arrivalTime;
     private int firstBurstTime;
@@ -55,7 +55,7 @@ public class Process {
         }
         @Override
         public String toString() {
-            return "Process{" + "processID=" + processID + ", responseTime=" + responseTime + ", turnAroundTime=" + endTime + ", waitingTime=" + waitingTime + '}';
+            return "Process{" + "processID=" + processID+ ", responseTime=" + responseTime + ", turnAroundTime=" + endTime + ", waitingTime=" + waitingTime + '}';
         }
     }
     public int getProcessID() {

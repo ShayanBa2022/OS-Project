@@ -31,6 +31,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +44,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674284790298</updated>
       <workItem from="1674284794253" duration="4035000" />
+      <workItem from="1674335402333" duration="3034000" />
+      <workItem from="1674370603239" duration="939000" />
     </task>
     <servers />
   </component>
