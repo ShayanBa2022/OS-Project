@@ -23,7 +23,7 @@ public class MLFQ extends BaseScheduler{
             var q2Result = secondQueue.schedule(temp, 16, Algorithms.MLFQ, firstQueue.getTotalTime());
 
             // put in last queue
-            var lastQueue = new FCFSAndSJF();
+            var lastQueue = new FCFS();
             while (!secondQueue.getTransferToNextQueue().isEmpty())
                 lastQueue.getReadyQueue().enqueue(secondQueue.getTransferToNextQueue().dequeue());
 

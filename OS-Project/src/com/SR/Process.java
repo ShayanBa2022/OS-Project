@@ -42,12 +42,12 @@ public class Process {
     public static void sortByRemainingTime(Queue<Process> readyQueue){
         var processes = new ArrayList<Process>();
 
-        while(!readyQueue.isEmpty()){
+        while(!readyQueue.isEmpty())
             processes.add(readyQueue.dequeue());
-            processes.sort(new Comparator<Process>() {
-                @Override
-                public int compare(Process p1, Process p2){
-                    return Integer.compare(p1.getRemainingWorkTime(),p2.getRemainingWorkTime());
+        processes.sort(new Comparator<Process>() {
+            @Override
+            public int compare(Process p1, Process p2){
+                return Integer.compare(p1.getRemainingWorkTime(),p2.getRemainingWorkTime());
                 }
             });
             while(!processes.isEmpty())
@@ -55,9 +55,9 @@ public class Process {
         }
         @Override
         public String toString() {
-            return "Process{" + "processID=" + processID+ ", responseTime=" + responseTime + ", turnAroundTime=" + endTime + ", waitingTime=" + waitingTime + '}';
+            return "Process{" + "processID=" + processID + ", responseTime=" + responseTime + ", turnAroundTime=" + endTime + ", waitingTime=" + waitingTime + '}';
         }
-    }
+
     public int getProcessID() {
         return processID;
     }
