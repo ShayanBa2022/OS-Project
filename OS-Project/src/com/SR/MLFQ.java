@@ -18,7 +18,7 @@ public class MLFQ extends BaseScheduler{
             // put in second queue
             var secondQueue = new RoundRobin();
             while (!firstQueue.getTransferToNextQueue().isEmpty())
-                secondQueue.getReadyQueue().enqueue(firstQueue.getTransferToNextQueue().dequeue());
+                secondQueue.getreadyQueue().enqueue(firstQueue.getTransferToNextQueue().dequeue());
 
             var q2Result = secondQueue.schedule(temp, 16, Algorithms.MLFQ, firstQueue.getTotalTime());
 

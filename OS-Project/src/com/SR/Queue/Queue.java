@@ -26,7 +26,7 @@ public class Queue<E> implements com.Queue.InterfaceQueue<E> {
 	@Override public String toString(){
 		return "{data=" + 
 			Arrays.toString(data) + 
-			"}"
+			"}";
 	} 
 
     	@Override public E first(){

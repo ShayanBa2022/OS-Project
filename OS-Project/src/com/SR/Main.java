@@ -1,6 +1,6 @@
-package com.company;
+package com.SR;
 
-import com.company.Queue.Queue;
+import com.SR.Queue.Queue;
 
 import java.io.File;
 import java.io.FileNotFoundException;
